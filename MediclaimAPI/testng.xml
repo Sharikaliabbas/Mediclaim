@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Mediclaim" thread-count="3">
+
+<listeners>
+<listener class-name="Utils.Listeners"/>
+</listeners>
+
+	<test name="Test"  preserve-order="true">
+	    <classes>
+	        <class name="Regression.ABMErrorCode"/>
+	        <class name="Regression.CheckStatusOfTheAPIs"/>
+	        <class name="Regression.ClaimAmountMismatch"/>
+	        <class name="Regression.ClaimAmountMissing"/>
+	        <class name="Regression.EmptyOrgName"/>
+	        <class name="Regression.IncompleteDataErrorCode"/>
+	        <class name="Regression.IncorrectOrgName"/>
+	        <class name="Regression.IncorrectPayload"/>
+	        <class name="Regression.InitiateJob"/>
+	        <class name="Regression.MultipleBillErrorCode"/>
+	        <class name="Regression.OtherErrorCode"/>
+	        <class name="Regression.PoorQualityErrorCode"/>
+	        <class name="Regression.ProcessAPI"/>
+	        <class name="Regression.SuccessfulReportGeneration"/>
+	        <class name="Regression.SuccessfulReportGenerationCallBackFailure"/>
+	        <class name="Regression.TooManyPagesErrorCode"/>
+	        <class name="Regression.UnsupportedBillFormatErrorCode"/>
+	        <class name="Regression.UploadAPI"/>
+	        <class name="Regression.GetAllOrgs"/>
+	        <class name="Regression.GetAllSettingsOfAnOrg"/>
+	        <class name="Regression.GetGivenSettings_ReportingConfig"/>
+	        <class name="Regression.GetGivenSettings_CategorizationConfig"/>
+	        <class name="Regression.GetGivenSettings_ReportingType"/>
+	        <class name="Regression.GetGivenSettings_RetentionPeriod"/>
+	        <class name="Regression.SaveAllSettings"/>
+	        <class name="Regression.VerifyingDuplicateOrgsMessage"/>
+	        <class name="Regression.RetryTransaction"/>
+	        <class name="Regression.CancelJobAfterInit"/>
+	        <class name="Regression.CancelJobAfterDocUpload"/>
+	    </classes>
+	</test>
+
+</suite>

@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 21 12:43:29 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>185 seconds (185971 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Regression.ABMErrorCode.ABM_ErrorCode()'><b>ABM_ErrorCode</b><br>Test class: Regression.ABMErrorCode</td>
+<td></td>
+<td>7</td>
+<td>Regression.ABMErrorCode@52bf72b5</td></tr>
+<tr>
+<td title='Regression.CheckStatusOfTheAPIs.CheckAllStatus()'><b>CheckAllStatus</b><br>Test class: Regression.CheckStatusOfTheAPIs</td>
+<td></td>
+<td>2</td>
+<td>Regression.CheckStatusOfTheAPIs@37afeb11</td></tr>
+<tr>
+<td title='Regression.ClaimAmountMismatch.ClaimAmountMismatchErrorCode()'><b>ClaimAmountMismatchErrorCode</b><br>Test class: Regression.ClaimAmountMismatch</td>
+<td></td>
+<td>6</td>
+<td>Regression.ClaimAmountMismatch@515aebb0</td></tr>
+<tr>
+<td title='Regression.ClaimAmountMissing.ClaimAmountMissingErrorCode()'><b>ClaimAmountMissingErrorCode</b><br>Test class: Regression.ClaimAmountMissing</td>
+<td></td>
+<td>6</td>
+<td>Regression.ClaimAmountMissing@dd8ba08</td></tr>
+<tr>
+<td title='Regression.GetAllSettingsOfAnOrg.GetAllSettingsOrgs()'><b>GetAllSettingsOrgs</b><br>Test class: Regression.GetAllSettingsOfAnOrg</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetAllSettingsOfAnOrg@35cabb2a</td></tr>
+<tr>
+<td title='Regression.GetAllOrgs.GetAll_Orgs()'><b>GetAll_Orgs</b><br>Test class: Regression.GetAllOrgs</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetAllOrgs@3a93b025</td></tr>
+<tr>
+<td title='Regression.GetGivenSettings_CategorizationConfig.GetGivenSettingsCategorizationConfig()'><b>GetGivenSettingsCategorizationConfig</b><br>Test class: Regression.GetGivenSettings_CategorizationConfig</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetGivenSettings_CategorizationConfig@1189dd52</td></tr>
+<tr>
+<td title='Regression.GetGivenSettings_ReportingConfig.GetGivenSettingsReportingConfig()'><b>GetGivenSettingsReportingConfig</b><br>Test class: Regression.GetGivenSettings_ReportingConfig</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetGivenSettings_ReportingConfig@7e07db1f</td></tr>
+<tr>
+<td title='Regression.GetGivenSettings_ReportingType.GetGivenSettingsReportingType()'><b>GetGivenSettingsReportingType</b><br>Test class: Regression.GetGivenSettings_ReportingType</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetGivenSettings_ReportingType@36bc55de</td></tr>
+<tr>
+<td title='Regression.GetGivenSettings_RetentionPeriod.GetGivenSettingsRetentionPeriod()'><b>GetGivenSettingsRetentionPeriod</b><br>Test class: Regression.GetGivenSettings_RetentionPeriod</td>
+<td></td>
+<td>0</td>
+<td>Regression.GetGivenSettings_RetentionPeriod@564fabc8</td></tr>
+<tr>
+<td title='Regression.IncorrectOrgName.Incorrect_OrgName()'><b>Incorrect_OrgName</b><br>Test class: Regression.IncorrectOrgName</td>
+<td></td>
+<td>0</td>
+<td>Regression.IncorrectOrgName@6ae5aa72</td></tr>
+<tr>
+<td title='Regression.IncorrectPayload.Incorrectpayload()'><b>Incorrectpayload</b><br>Test class: Regression.IncorrectPayload</td>
+<td></td>
+<td>0</td>
+<td>Regression.IncorrectPayload@222545dc</td></tr>
+<tr>
+<td title='Regression.InitiateJob.InitiateMediclaimJob()'><b>InitiateMediclaimJob</b><br>Test class: Regression.InitiateJob</td>
+<td></td>
+<td>0</td>
+<td>Regression.InitiateJob@5c5eefef</td></tr>
+<tr>
+<td title='Regression.IncompleteDataErrorCode.MultipleBillErrorCode()'><b>MultipleBillErrorCode</b><br>Test class: Regression.IncompleteDataErrorCode</td>
+<td></td>
+<td>5</td>
+<td>Regression.IncompleteDataErrorCode@6c64cb25</td></tr>
+<tr>
+<td title='Regression.MultipleBillErrorCode.MultipleBill_ErrorCode()'><b>MultipleBill_ErrorCode</b><br>Test class: Regression.MultipleBillErrorCode</td>
+<td></td>
+<td>6</td>
+<td>Regression.MultipleBillErrorCode@16293aa2</td></tr>
+<tr>
+<td title='Regression.EmptyOrgName.NoOrgName()'><b>NoOrgName</b><br>Test class: Regression.EmptyOrgName</td>
+<td></td>
+<td>0</td>
+<td>Regression.EmptyOrgName@245b4bdc</td></tr>
+<tr>
+<td title='Regression.OtherErrorCode.Other_ErrorCode()'><b>Other_ErrorCode</b><br>Test class: Regression.OtherErrorCode</td>
+<td></td>
+<td>5</td>
+<td>Regression.OtherErrorCode@5158b42f</td></tr>
+<tr>
+<td title='Regression.PoorQualityErrorCode.PoorQuality_ErrorCode()'><b>PoorQuality_ErrorCode</b><br>Test class: Regression.PoorQualityErrorCode</td>
+<td></td>
+<td>5</td>
+<td>Regression.PoorQualityErrorCode@595b007d</td></tr>
+<tr>
+<td title='Regression.ProcessAPI.ProcessMediclaimFile()'><b>ProcessMediclaimFile</b><br>Test class: Regression.ProcessAPI</td>
+<td></td>
+<td>0</td>
+<td>Regression.ProcessAPI@72d1ad2e</td></tr>
+<tr>
+<td title='Regression.RetryTransaction.Retry_Transaction()'><b>Retry_Transaction</b><br>Test class: Regression.RetryTransaction</td>
+<td></td>
+<td>45</td>
+<td>Regression.RetryTransaction@1d2adfbe</td></tr>
+<tr>
+<td title='Regression.SaveAllSettings.SaveAll_Settings()'><b>SaveAll_Settings</b><br>Test class: Regression.SaveAllSettings</td>
+<td></td>
+<td>0</td>
+<td>Regression.SaveAllSettings@16d04d3d</td></tr>
+<tr>
+<td title='Regression.SuccessfulReportGenerationCallBackFailure.SuccessfulReportGeneration_CallbackFailure()'><b>SuccessfulReportGeneration_CallbackFailure</b><br>Test class: Regression.SuccessfulReportGenerationCallBackFailure</td>
+<td></td>
+<td>39</td>
+<td>Regression.SuccessfulReportGenerationCallBackFailure@399f45b1</td></tr>
+<tr>
+<td title='Regression.SuccessfulReportGeneration.Successful_ReportGeneration()'><b>Successful_ReportGeneration</b><br>Test class: Regression.SuccessfulReportGeneration</td>
+<td></td>
+<td>40</td>
+<td>Regression.SuccessfulReportGeneration@2d7275fc</td></tr>
+<tr>
+<td title='Regression.TooManyPagesErrorCode.TooManyPages_ErrorCode()'><b>TooManyPages_ErrorCode</b><br>Test class: Regression.TooManyPagesErrorCode</td>
+<td></td>
+<td>5</td>
+<td>Regression.TooManyPagesErrorCode@38c6f217</td></tr>
+<tr>
+<td title='Regression.UnsupportedBillFormatErrorCode.UnsupportedBillFormat_ErrorCode()'><b>UnsupportedBillFormat_ErrorCode</b><br>Test class: Regression.UnsupportedBillFormatErrorCode</td>
+<td></td>
+<td>6</td>
+<td>Regression.UnsupportedBillFormatErrorCode@478190fc</td></tr>
+<tr>
+<td title='Regression.UploadAPI.UploadMediclaimFile()'><b>UploadMediclaimFile</b><br>Test class: Regression.UploadAPI</td>
+<td></td>
+<td>0</td>
+<td>Regression.UploadAPI@79e2c065</td></tr>
+<tr>
+<td title='Regression.VerifyingDuplicateOrgsMessage.VerifyingDuplicateOrgs_Message()'><b>VerifyingDuplicateOrgs_Message</b><br>Test class: Regression.VerifyingDuplicateOrgsMessage</td>
+<td></td>
+<td>0</td>
+<td>Regression.VerifyingDuplicateOrgsMessage@49ec71f8</td></tr>
+</table><p>
+</body>
+</html>

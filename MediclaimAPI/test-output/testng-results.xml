@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="29" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mediclaim" duration-ms="185971" started-at="2020-06-21T07:13:29Z" finished-at="2020-06-21T07:16:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="185971" started-at="2020-06-21T07:13:29Z" finished-at="2020-06-21T07:16:35Z">
+      <class name="Regression.ABMErrorCode">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.ABMErrorCode@52bf72b5]" name="getAPIHost" is-config="true" duration-ms="344" started-at="2020-06-21T07:13:29Z" finished-at="2020-06-21T07:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="ABM_ErrorCode()[pri:0, instance:Regression.ABMErrorCode@52bf72b5]" name="ABM_ErrorCode" duration-ms="7730" started-at="2020-06-21T07:13:30Z" finished-at="2020-06-21T07:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ABM_ErrorCode -->
+      </class> <!-- Regression.ABMErrorCode -->
+      <class name="Regression.UploadAPI">
+        <test-method status="PASS" signature="UploadMediclaimFile()[pri:0, instance:Regression.UploadAPI@79e2c065]" name="UploadMediclaimFile" duration-ms="329" started-at="2020-06-21T07:15:49Z" finished-at="2020-06-21T07:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadMediclaimFile -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.UploadAPI@79e2c065]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:49Z" finished-at="2020-06-21T07:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.UploadAPI -->
+      <class name="Regression.GetGivenSettings_RetentionPeriod">
+        <test-method status="PASS" signature="GetGivenSettingsRetentionPeriod()[pri:0, instance:Regression.GetGivenSettings_RetentionPeriod@564fabc8]" name="GetGivenSettingsRetentionPeriod" duration-ms="64" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGivenSettingsRetentionPeriod -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetGivenSettings_RetentionPeriod@564fabc8]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.GetGivenSettings_RetentionPeriod -->
+      <class name="Regression.GetAllOrgs">
+        <test-method status="PASS" signature="GetAll_Orgs()[pri:0, instance:Regression.GetAllOrgs@3a93b025]" name="GetAll_Orgs" duration-ms="96" started-at="2020-06-21T07:15:49Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAll_Orgs -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetAllOrgs@3a93b025]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:49Z" finished-at="2020-06-21T07:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.GetAllOrgs -->
+      <class name="Regression.OtherErrorCode">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.OtherErrorCode@5158b42f]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:14:05Z" finished-at="2020-06-21T07:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="Other_ErrorCode()[pri:0, instance:Regression.OtherErrorCode@5158b42f]" name="Other_ErrorCode" duration-ms="5661" started-at="2020-06-21T07:14:05Z" finished-at="2020-06-21T07:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Other_ErrorCode -->
+      </class> <!-- Regression.OtherErrorCode -->
+      <class name="Regression.CheckStatusOfTheAPIs">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.CheckStatusOfTheAPIs@37afeb11]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:37Z" finished-at="2020-06-21T07:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="CheckAllStatus()[pri:0, instance:Regression.CheckStatusOfTheAPIs@37afeb11]" name="CheckAllStatus" duration-ms="2682" started-at="2020-06-21T07:13:37Z" finished-at="2020-06-21T07:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAllStatus -->
+      </class> <!-- Regression.CheckStatusOfTheAPIs -->
+      <class name="Regression.PoorQualityErrorCode">
+        <test-method status="PASS" signature="PoorQuality_ErrorCode()[pri:0, instance:Regression.PoorQualityErrorCode@595b007d]" name="PoorQuality_ErrorCode" duration-ms="5638" started-at="2020-06-21T07:14:11Z" finished-at="2020-06-21T07:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PoorQuality_ErrorCode -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.PoorQualityErrorCode@595b007d]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:14:11Z" finished-at="2020-06-21T07:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.PoorQualityErrorCode -->
+      <class name="Regression.ProcessAPI">
+        <test-method status="PASS" signature="ProcessMediclaimFile()[pri:0, instance:Regression.ProcessAPI@72d1ad2e]" name="ProcessMediclaimFile" duration-ms="432" started-at="2020-06-21T07:14:16Z" finished-at="2020-06-21T07:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProcessMediclaimFile -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.ProcessAPI@72d1ad2e]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:14:16Z" finished-at="2020-06-21T07:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.ProcessAPI -->
+      <class name="Regression.UnsupportedBillFormatErrorCode">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.UnsupportedBillFormatErrorCode@478190fc]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:43Z" finished-at="2020-06-21T07:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="UnsupportedBillFormat_ErrorCode()[pri:0, instance:Regression.UnsupportedBillFormatErrorCode@478190fc]" name="UnsupportedBillFormat_ErrorCode" duration-ms="6636" started-at="2020-06-21T07:15:43Z" finished-at="2020-06-21T07:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UnsupportedBillFormat_ErrorCode -->
+      </class> <!-- Regression.UnsupportedBillFormatErrorCode -->
+      <class name="Regression.SuccessfulReportGeneration">
+        <test-method status="PASS" signature="Successful_ReportGeneration()[pri:0, instance:Regression.SuccessfulReportGeneration@2d7275fc]" name="Successful_ReportGeneration" duration-ms="40195" started-at="2020-06-21T07:14:17Z" finished-at="2020-06-21T07:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Successful_ReportGeneration -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.SuccessfulReportGeneration@2d7275fc]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:14:17Z" finished-at="2020-06-21T07:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.SuccessfulReportGeneration -->
+      <class name="Regression.VerifyingDuplicateOrgsMessage">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.VerifyingDuplicateOrgsMessage@49ec71f8]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="VerifyingDuplicateOrgs_Message()[pri:0, instance:Regression.VerifyingDuplicateOrgsMessage@49ec71f8]" name="VerifyingDuplicateOrgs_Message" duration-ms="66" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingDuplicateOrgs_Message -->
+      </class> <!-- Regression.VerifyingDuplicateOrgsMessage -->
+      <class name="Regression.EmptyOrgName">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.EmptyOrgName@245b4bdc]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:53Z" finished-at="2020-06-21T07:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="NoOrgName()[pri:0, instance:Regression.EmptyOrgName@245b4bdc]" name="NoOrgName" duration-ms="80" started-at="2020-06-21T07:13:53Z" finished-at="2020-06-21T07:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoOrgName -->
+      </class> <!-- Regression.EmptyOrgName -->
+      <class name="Regression.IncorrectOrgName">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.IncorrectOrgName@6ae5aa72]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:58Z" finished-at="2020-06-21T07:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="Incorrect_OrgName()[pri:0, instance:Regression.IncorrectOrgName@6ae5aa72]" name="Incorrect_OrgName" duration-ms="184" started-at="2020-06-21T07:13:58Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Incorrect_OrgName -->
+      </class> <!-- Regression.IncorrectOrgName -->
+      <class name="Regression.InitiateJob">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.InitiateJob@5c5eefef]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="InitiateMediclaimJob()[pri:0, instance:Regression.InitiateJob@5c5eefef]" name="InitiateMediclaimJob" duration-ms="117" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateMediclaimJob -->
+      </class> <!-- Regression.InitiateJob -->
+      <class name="Regression.GetGivenSettings_ReportingType">
+        <test-method status="PASS" signature="GetGivenSettingsReportingType()[pri:0, instance:Regression.GetGivenSettings_ReportingType@36bc55de]" name="GetGivenSettingsReportingType" duration-ms="64" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGivenSettingsReportingType -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetGivenSettings_ReportingType@36bc55de]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.GetGivenSettings_ReportingType -->
+      <class name="Regression.GetGivenSettings_CategorizationConfig">
+        <test-method status="PASS" signature="GetGivenSettingsCategorizationConfig()[pri:0, instance:Regression.GetGivenSettings_CategorizationConfig@1189dd52]" name="GetGivenSettingsCategorizationConfig" duration-ms="72" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGivenSettingsCategorizationConfig -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetGivenSettings_CategorizationConfig@1189dd52]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.GetGivenSettings_CategorizationConfig -->
+      <class name="Regression.SuccessfulReportGenerationCallBackFailure">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.SuccessfulReportGenerationCallBackFailure@399f45b1]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:14:57Z" finished-at="2020-06-21T07:14:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="SuccessfulReportGeneration_CallbackFailure()[pri:0, instance:Regression.SuccessfulReportGenerationCallBackFailure@399f45b1]" name="SuccessfulReportGeneration_CallbackFailure" duration-ms="39829" started-at="2020-06-21T07:14:57Z" finished-at="2020-06-21T07:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessfulReportGeneration_CallbackFailure -->
+      </class> <!-- Regression.SuccessfulReportGenerationCallBackFailure -->
+      <class name="Regression.RetryTransaction">
+        <test-method status="PASS" signature="Retry_Transaction()[pri:0, instance:Regression.RetryTransaction@1d2adfbe]" name="Retry_Transaction" duration-ms="45098" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:16:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Retry_Transaction -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.RetryTransaction@1d2adfbe]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.RetryTransaction -->
+      <class name="Regression.IncorrectPayload">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.IncorrectPayload@222545dc]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="Incorrectpayload()[pri:0, instance:Regression.IncorrectPayload@222545dc]" name="Incorrectpayload" duration-ms="82" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Incorrectpayload -->
+      </class> <!-- Regression.IncorrectPayload -->
+      <class name="Regression.GetGivenSettings_ReportingConfig">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetGivenSettings_ReportingConfig@7e07db1f]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="GetGivenSettingsReportingConfig()[pri:0, instance:Regression.GetGivenSettings_ReportingConfig@7e07db1f]" name="GetGivenSettingsReportingConfig" duration-ms="64" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetGivenSettingsReportingConfig -->
+      </class> <!-- Regression.GetGivenSettings_ReportingConfig -->
+      <class name="Regression.ClaimAmountMismatch">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.ClaimAmountMismatch@515aebb0]" name="getAPIHost" is-config="true" duration-ms="8" started-at="2020-06-21T07:13:40Z" finished-at="2020-06-21T07:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="ClaimAmountMismatchErrorCode()[pri:0, instance:Regression.ClaimAmountMismatch@515aebb0]" name="ClaimAmountMismatchErrorCode" duration-ms="6592" started-at="2020-06-21T07:13:40Z" finished-at="2020-06-21T07:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClaimAmountMismatchErrorCode -->
+      </class> <!-- Regression.ClaimAmountMismatch -->
+      <class name="Regression.MultipleBillErrorCode">
+        <test-method status="PASS" signature="MultipleBill_ErrorCode()[pri:0, instance:Regression.MultipleBillErrorCode@16293aa2]" name="MultipleBill_ErrorCode" duration-ms="6287" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleBill_ErrorCode -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.MultipleBillErrorCode@16293aa2]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:59Z" finished-at="2020-06-21T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.MultipleBillErrorCode -->
+      <class name="Regression.SaveAllSettings">
+        <test-method status="PASS" signature="SaveAll_Settings()[pri:0, instance:Regression.SaveAllSettings@16d04d3d]" name="SaveAll_Settings" duration-ms="80" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveAll_Settings -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.SaveAllSettings@16d04d3d]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.SaveAllSettings -->
+      <class name="Regression.GetAllSettingsOfAnOrg">
+        <test-method status="PASS" signature="GetAllSettingsOrgs()[pri:0, instance:Regression.GetAllSettingsOfAnOrg@35cabb2a]" name="GetAllSettingsOrgs" duration-ms="112" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllSettingsOrgs -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.GetAllSettingsOfAnOrg@35cabb2a]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:50Z" finished-at="2020-06-21T07:15:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.GetAllSettingsOfAnOrg -->
+      <class name="Regression.TooManyPagesErrorCode">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.TooManyPagesErrorCode@38c6f217]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:15:37Z" finished-at="2020-06-21T07:15:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="TooManyPages_ErrorCode()[pri:0, instance:Regression.TooManyPagesErrorCode@38c6f217]" name="TooManyPages_ErrorCode" duration-ms="5633" started-at="2020-06-21T07:15:37Z" finished-at="2020-06-21T07:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TooManyPages_ErrorCode -->
+      </class> <!-- Regression.TooManyPagesErrorCode -->
+      <class name="Regression.IncompleteDataErrorCode">
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.IncompleteDataErrorCode@6c64cb25]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:53Z" finished-at="2020-06-21T07:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+        <test-method status="PASS" signature="MultipleBillErrorCode()[pri:0, instance:Regression.IncompleteDataErrorCode@6c64cb25]" name="MultipleBillErrorCode" duration-ms="5622" started-at="2020-06-21T07:13:53Z" finished-at="2020-06-21T07:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleBillErrorCode -->
+      </class> <!-- Regression.IncompleteDataErrorCode -->
+      <class name="Regression.ClaimAmountMissing">
+        <test-method status="PASS" signature="ClaimAmountMissingErrorCode()[pri:0, instance:Regression.ClaimAmountMissing@dd8ba08]" name="ClaimAmountMissingErrorCode" duration-ms="6133" started-at="2020-06-21T07:13:47Z" finished-at="2020-06-21T07:13:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClaimAmountMissingErrorCode -->
+        <test-method status="PASS" signature="getAPIHost()[pri:0, instance:Regression.ClaimAmountMissing@dd8ba08]" name="getAPIHost" is-config="true" duration-ms="0" started-at="2020-06-21T07:13:47Z" finished-at="2020-06-21T07:13:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIHost -->
+      </class> <!-- Regression.ClaimAmountMissing -->
+    </test> <!-- Test -->
+  </suite> <!-- Mediclaim -->
+</testng-results>
